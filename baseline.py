@@ -59,7 +59,7 @@ for d in data + test_data:
 tokens = {i: j for i, j in tokens.items() if j >= min_count}
 tokens = sorted(tokens.items(), key=lambda s: -s[1])
 tokens = {
-    t[0]: i + 4
+    t[0]: i + 7
     for i, t in enumerate(tokens)
 }  # 0: pad, 1: unk, 2: cls, 3: sep, 4: mask, 5: no, 6: yes
 
