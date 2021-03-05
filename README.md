@@ -19,7 +19,7 @@ base版本线下大概0.952，线上0.866（单模型，没做K-flod融合）。
 from baseline import *
 predict_to_file('result.csv')
 ```
-然后将`zip result.zip result.csv`，最后把result.zip提交即可。
+然后`zip result.zip result.csv`，最后把result.zip提交即可。
 
 ## 感谢
 
