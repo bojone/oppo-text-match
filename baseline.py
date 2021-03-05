@@ -32,7 +32,7 @@ def load_data(filename):
             if len(l) == 3:
                 a, b, c = l[0], l[1], int(l[2])
             else:
-                a, b, c = l[0], l[1], -5
+                a, b, c = l[0], l[1], -5  # 未标注数据，标签为-5
             a = [int(i) for i in a.split(' ')]
             b = [int(i) for i in b.split(' ')]
             truncate_sequences(maxlen, -1, a, b)
