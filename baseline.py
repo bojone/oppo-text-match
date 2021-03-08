@@ -5,7 +5,7 @@
 import json
 import numpy as np
 from sklearn.metrics import roc_auc_score
-from bert4keras.backend import keras, set_gelu, K
+from bert4keras.backend import keras, K
 from bert4keras.tokenizers import load_vocab
 from bert4keras.models import build_transformer_model
 from bert4keras.optimizers import Adam
